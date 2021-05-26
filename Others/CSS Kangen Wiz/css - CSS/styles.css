@@ -1,0 +1,316 @@
+/**********TAG SELECTORS**********/ 
+
+* {
+    margin: 0px;
+}
+
+body {
+    text-align: center;
+    /*
+    font-family: 'Bitter', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    */
+    }
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1 {
+    color: #58B4AE;
+    font-size: 2.6rem;
+    margin: 15px;
+}
+
+h2 {
+    font-size: 2.4rem;
+    margin: 15px;
+}
+
+h3 {
+    font-size: 2.2rem;
+    margin: 15px;
+}
+
+h4 {
+    font-size: 2rem;
+    margin: 15px;
+}
+
+h5 {
+    font-size: 1.8rem;
+    margin: 15px;
+}
+
+h6 {
+    font-size: 1.5rem;
+    margin: 15px;
+}
+
+p {
+    font-size: 1.45rem;
+    margin: 15px;
+}
+
+.p-for-book-an-appointment {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+li {
+    font-size: 20px;
+}
+
+.banner {
+    margin-top: 10px;
+    position: relative;
+    padding-top: 60px;
+    height: 45rem;
+}
+
+/***************************************0th BANNER*************************************/
+.zeroth-banner-k8 {
+    padding-top: 25px;
+}
+
+.zeroth-banner {
+    background-color: #cff1ef;
+}
+
+/***************************************1st BANNER*************************************/
+
+/***************************************2nd BANNER*************************************/
+.second-banner {
+    background-color:#cff1ef;
+}
+
+.second-banner-elements {
+    padding-top: 30px;
+    /*
+    padding-left: 20px;
+    padding-right: 20px;
+    */
+    width: 25%;
+    display: inline-block;
+}
+
+.kangen-water-h2 {
+    color: #95389e;
+}
+
+
+/***************************************3rd BANNER*************************************/
+/* Clean Water and Beauty Water */
+.third-banner {
+    margin-top: 10px;
+    position: relative;
+    padding-top: 45px;
+    height: 400px;
+    display: inline-block;
+    width:49.5%;
+}
+
+.clean-water-banner {
+    margin-right:2px;
+
+}
+
+.clean-water-h2 {
+    color: #05dfd7;
+}
+
+.beauty-water-banner {
+    margin-left:2px;
+    background-color: #cff1ef;
+}
+
+.beauty-water-h2 {
+    color: #ffac41;
+}
+
+
+/***************************************4th BANNER*************************************/
+/* Strong Kangen Water and Strong Acidic Water */
+.fourth-banner {
+    margin-top: 10px;
+    padding-top: 45px;
+    height: 400px;
+    display: inline-block;
+    width:49.5%;
+}
+
+.strong-kangen-water-banner {
+    margin-right:2px;
+}
+
+.strong-kangen-water-h2 {
+    color: #a6b1e1;
+}
+
+.strong-acidic-water-banner {
+    margin-left:2px;
+    background-color:#cff1ef;
+}
+
+.strong-acidic-water-h2 {
+    color: #dc5353;
+}
+
+
+/***************************************5th BANNER*************************************/
+/* Professional Testimonials */
+/* .fifth-banner {
+    background-color: #cff1ef;
+} */
+
+.fifth-banner-div {
+    display:inline-block;
+    width: 49.5%;
+}
+
+.testimonial {
+    margin:30px;
+    display: block;
+}
+
+
+/***************************************6th BANNER*************************************/
+/* A set of models available */
+
+.sixth-banner {
+    background-color: #cff1ef;
+    margin-top: 10px;
+    position: relative;
+    padding-top: 58px;
+    height: 46.25rem;
+}
+
+.sixth-banner-div {
+    display:inline-block;
+    padding-top: 25px;
+    margin: 10px;
+    width: 22%;
+    /* NEED TO CHANGE THE WIDTH LATER */
+}
+
+.sixth-banner-h2 {
+    color: grey;
+}
+
+
+/***************************************7th BANNER*************************************/
+/* Certificates */
+.certificate {
+    display:inline-block;
+    width: 10%;
+}
+
+.seventh-banner {
+    background-color: #cff1ef;
+    margin-top: 10px;
+    position: relative;
+    padding: 60px;
+    height: 200px;
+}
+
+/***************************************8th BANNER*************************************/
+/* Book an Appointment with Us */
+.eighth-banner {
+    border-bottom: 20px;
+}
+
+.eighth-banner-div {
+    margin-top: 20px;
+    width: 32%;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.eighth-banner-text {
+    margin-top: 30px;
+}
+
+.eighth-banner-bottom-text {
+    color: #12947f;
+    margin-top: 40px;
+}
+
+
+/*
+img:hover {
+    background-color: gold;
+}
+*/
+
+/* 
+.top-container {
+    border: solid 10px;
+    padding: 20px;
+    height: 140px;
+    width: 140px;
+}
+
+.middle-container {
+    color: red;
+    margin-left: 200px;
+    border: solid 20px;
+    height: 160px;
+    width: 160px;
+}
+
+.bottom-container {
+    color: yellow;
+    margin-left:400px;
+    border: solid 10px;
+    height: 180px;
+    width: 180px;
+}
+ */
+
+/*********CLASS SELECTORS*********/ 
+/*
+
+Can be used for multiple elements.
+One element can have more than one class.
+
+<img class="bacon circular" src=() alt=()>
+
+.bacon {
+    background-color: red;
+}
+.circular {}
+
+*/
+
+
+/**********ID SELECTORS***********/ 
+/*
+
+Only can be used for ONE element.
+One element can only have ONE id.
+
+<h1 id="heading">I love bacon</h1>
+
+#heading {
+    colour:blue
+}
+
+*/
+
+
+/*
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <p>Paragraph</p>
+*/

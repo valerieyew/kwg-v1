@@ -1,0 +1,183 @@
+body {
+    padding-top: 130px;
+    max-width: 1250px;
+    margin: auto;
+}
+
+@media (min-width: 1190px) {
+    body {
+        padding-left: auto;
+        padding-right: auto;
+    }
+}
+
+@media (max-width: 1190px) {
+    body {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    body {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+} 
+
+h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+li {
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 1679px) {
+    h4 {
+        font-size: 1.6rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    p {
+        font-size: 1.15rem;
+    }
+    
+    li {
+        font-size: 1.15rem;
+    }
+}
+
+/* On tablet mode and below, space is needed between the img-box and text since they are no longer side by side */
+@media screen and (max-width: 991px) {
+    .model-name-margin-top {
+        margin-top: 1.2rem;
+    }
+}
+
+/* This is like the max-width for products page */
+.fixed-row {
+    max-width: 970px;
+    margin:auto; 
+}
+
+.specifications-style {
+    max-width: 970px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1680px) {
+    .specifications-style {
+        padding-left: 15rem;
+    }
+}
+
+/* For the product images at the top */
+.imgBox {
+    width: 25rem;
+    height: 25rem;
+    margin: 0.2rem;
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+/* For the size/dimensions image at the bottom */
+.sizeImgBox {
+    width: 26.5rem;
+    height: 25rem;
+    margin: 0.2rem;
+}
+
+/* For all the images' sizes/dimensions box to be smaller for smaller screens */
+@media screen and (max-width: 460px) {
+    .imgBox {
+        width: 23rem;
+        height: 23rem;
+    }
+
+    .sizeImgBox {
+        width: 24rem;
+        height: 23rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .imgBox {
+        width: 21rem;
+        height: 21rem;
+    }
+
+    .sizeImgBox {
+        width: 22rem;
+        height: 21rem;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .imgBox {
+        width: 19rem;
+        height: 19rem;
+    }
+
+    .sizeImgBox {
+        width: 20rem;
+        height: 18.5rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .sizeImgBox {
+        width: 19rem;
+        height: 18rem;
+    }
+}
+
+/* This is targeted at the small images below the imgBox */
+.thumb .thumbnail {
+    /* No bullet points or other pointers */
+    list-style: none;
+    margin: 0.2rem;
+    width: 3.8rem;
+    height: 3.8rem;
+    border: 1px solid rgba(0,0,0,.2);
+    overflow: hidden;
+    display: inline-block;
+}
+
+/* Centralize the product images for tablet mode and below */
+@media (max-width: 991px) {
+    .thumb {
+       text-align: center;
+    }
+
+    .imgBox {
+        margin: 0.2rem auto;
+    }
+}
+
+/* notes is only for SD501 and SD501P at the bottom of the specification image */
+.notes {
+    font-size: 0.95rem;
+    text-align: left;
+}
+
+.end-text {
+    text-align: center;
+    font-size: 1.05rem;
+}
+
+@media screen and (min-width: 1679px) {
+    .end-text {
+        font-size: 1.2rem;
+    }
+}    
+
+.footer-text {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 3rem;
+}
