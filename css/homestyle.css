@@ -27,7 +27,6 @@ body {
 
 .nav-link {
     font-size: 0.95rem;
-    margin-right: 15px;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -57,6 +56,7 @@ p, li, .btn-lg {
     font-size: 1rem;
 }
 
+
 /******** Font sizes & text margins for tablet screens ********/
 @media screen and (min-width: 991px) {
     .navbar-brand {
@@ -67,7 +67,6 @@ p, li, .btn-lg {
     
     .nav-link {
         font-size: 0.9rem;
-        margin-right: 15px;
         font-family: 'Noto Sans JP', sans-serif;
     }
     
@@ -101,7 +100,7 @@ p, li, .btn-lg {
     }
 
     .nav-link {
-        font-size: 1.1rem;
+        font-size: 0.8rem;
     }
 
     h1, h2, h4, h6, p {
@@ -330,18 +329,18 @@ i.fa-5x {
     color: rgb(226, 221, 221);
 }
 
-.antioxidant-text-enlarge {
-    color: white;
-    font-size: 140%;
-}
-
 @media screen and (min-width: 1679px) {
     .antioxidant-text {
         font-size: 1.4rem;
-        padding-top: 2rem;
+        padding-top: 1rem;
         margin: 0 6.2rem 0 6rem;
         font-size: 140%;
     }
+}
+
+.antioxidant-text-enlarge {
+    color: white;
+    font-size: 140%;
 }
 
 /* .border-yellow-button {
@@ -349,7 +348,7 @@ i.fa-5x {
 } */
 
 
-/******************* Taking a step further *******************/
+/******************* More than Just Drinking *******************/
 .unique-container-style {
     max-width: 1125px;
 }
@@ -366,6 +365,17 @@ i.fa-5x {
     }    
 }
 
+/* List items in the modal box */
+.modal-li {
+    margin: 0 0 0 1rem;
+    text-align: left;
+}
+
+/* Other text in the modal box */
+.model-p {
+    margin-left: 0;
+    text-align: left;
+}
 
 /* Modal Background */
 .bg-modal {
