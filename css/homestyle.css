@@ -1,11 +1,23 @@
 body {
     text-align: center;
     padding-top: 55px;
+    animation: transitionIn 1.6s;
 }
 
 @media screen and (min-width: 992px) {
     body {
         padding-top: 50px;
+    }
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
@@ -100,7 +112,7 @@ p, li, .btn-lg {
     }
 
     .nav-link {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     h1, h2, h4, h6, p {
@@ -323,7 +335,7 @@ i.fa-5x {
     background-image: url(Fresh-Blueberries.PNG);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 80%;
+    /* width: 90%; */
     /* padding-top: 3rem;
     padding-bottom: 3rem; */
 }
