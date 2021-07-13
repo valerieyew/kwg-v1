@@ -1,7 +1,7 @@
 body {
     text-align: center;
     padding-top: 55px;
-    animation: transitionIn 1.6s;
+    animation: transitionIn 1.2s;
 }
 
 @media screen and (min-width: 992px) {
@@ -388,7 +388,7 @@ i.fa-5x {
 }
 
 /* Other text in the modal box */
-.model-p {
+.modal-p {
     margin-left: 0;
     text-align: left;
 }
@@ -596,8 +596,8 @@ cause the buttons to be cut off if this is not included */
 /* Beauty water button */
 .btn-bw {
     color: #fff;
-    background-color: #f6d743;
-    border-color: #f0c736;
+    background-color: #eed142;
+    border-color: #e9c33b;
 }
   
 .btn-bw:hover {
@@ -611,7 +611,7 @@ cause the buttons to be cut off if this is not included */
 }
 
 #beauty-water-h2, .bw-icons {
-    color: #f6d743;
+    color: #dfc231;
 }
 
 
