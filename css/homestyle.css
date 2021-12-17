@@ -68,6 +68,9 @@ p, li, .btn-lg {
     font-size: 1rem;
 }
 
+.button-text {
+    font-size: 0.98rem;
+}
 
 /******** Font sizes & text margins for tablet screens ********/
 @media screen and (min-width: 991px) {
@@ -102,6 +105,10 @@ p, li, .btn-lg {
     
     p, li, .btn-lg {
         font-size: 1.1rem;
+    }
+
+    .button-text {
+        font-size: 1.02rem;
     }
 }
 
@@ -139,6 +146,10 @@ p, li, .btn-lg {
     
     p, li, .btn-lg {
         font-size: 1.15rem;
+    }
+
+    .button-text {
+        font-size: 1.05rem;
     }
 
     .larger-p {
@@ -189,20 +200,6 @@ i.fa-5x {
 
 /******************* Container styles *******************/
 
-.head-banner {
-    background-color: #ddf3f5;
-}
-
-/* .row-of-ionizers {
-    max-width: 800px;
-}
-
-@media screen and (min-width: 1400px) {
-    .row-of-ionizers {
-        max-width: 1000px;
-    }
-} */
-
 .container-style {
     max-width: 1000px;
     margin: auto; 
@@ -210,7 +207,7 @@ i.fa-5x {
 
 @media screen and (min-width: 1679px) {
     .container-style {
-        max-width: 1180px;
+        max-width: 1200px;
         padding: 3.2% 0%;
     }
 }
@@ -257,6 +254,20 @@ i.fa-5x {
 /* Blue text is used throughout the website to add some variations so it won't be just white background with black text */
 .blue-text {
     color: #1b6ca8;
+}
+
+/************************* Head Banner *************************/
+
+@media screen and (max-width: 514px) {
+    .row-of-ionizers {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 515px) {
+    .k8-and-platinum {
+        display: none;
+    }
 }
 
 /******************* Recognitions and Awards *******************/
@@ -382,7 +393,7 @@ i.fa-5x {
 
 /* List items in the modal box */
 .modal-li {
-    margin: 0 0 0 1rem;
+    margin: 0 0 0 0.2rem;
     text-align: left;
 }
 
@@ -472,80 +483,82 @@ i.fa-5x {
     cursor: pointer;
 }
 
-@media screen and (min-width: 1679px) {
-    .buttons-row {
+/* To set both the K8 and buttons - use button-style for the buttons only below */
+.functions-row {
+    margin: 1.4rem auto;
+}
+
+@media screen and (min-width: 1161px) {
+    .functions-row {
         margin: 1.6rem auto;
         max-width: 750px;
     }
 }
 
-/* Buttons class is used to add margin-top to make sure that columns are of the same height when they are side by side on laptop mode */
-/* I created a class for it as smaller screens don't need the margin-top */
-/* It is also used to make sure the buttons are centralized in the own column when they are arranged in one vertical straight line on some screen widths */
-@media screen and (min-width: 1162px) {
-    .buttons {
-        margin-top: 1rem;
+/* Make the K8 vertically-aligned in center */
+.k8-functions {
+    margin: auto;
+    padding: 0.8rem 0 0;
+}
+
+/* Phone mode will cause the K8 machine in this banner to disappear and 
+the margin between the text and buttons will decrease */
+@media screen and (max-width: 575px) {
+    .functions-row {
+        margin: 0.85rem auto;
+    }
+
+    .k8-functions {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .k8-functions {
+        max-width: 17rem;
     }
 }
 
 @media screen and (max-width: 1161px) {
-    .buttons {
-        margin-top: 0rem;
+    .k8-functions {
+        max-width: 23rem;
     }
 }
 
-/* Phone mode will cause the K8 machine in this banner to disappear and 
-the buttons are centralized when this happens */
-@media screen and (max-width: 630px) {
-    .image-disappear {
-        display: none;
+@media screen and (min-width: 1162px) {
+    .k8-functions {
+        max-width: 27rem;
     }
-    .buttons {
-        margin: auto;
-    }
-}
-
-/* Make the K8 vertically-aligned in center */
-.image-disappear {
-    margin: auto;
-    padding: 0.8rem 0 0;
 }
 
 /* Set the style for the buttons' design */
 .button-style {
     padding: 5%;
     margin: 5px;
-    min-width: 235px;
+    min-width: 248px;
 }
 
-@media screen and (min-width: 1679px) {
+@media screen and (max-width: 575px) {
+    .button-style {
+        padding: 3%;
+        min-width: 252px;
+    }
+}
+
+@media screen and (min-width: 992px) {
     .button-style {
         padding: 1.2rem;
         margin: 0.2rem;
-        min-width: 248px;
-    }
-
-    .button-text {
-        font-size: 1rem;
+        min-width: 260px;
     }
 }
 
 /* So the p for water types in the buttons have no margins */
+/* Font size of button-text is smaller than p, adjusted with the other font sizes above */
 .button-text {
-    text-align: left;
+    text-align: center;
     margin: 0;
     color: white;
-}
-
-/* There is this small width range between tablet and phone mode that will 
-cause the buttons to be cut off if this is not included */
-@media screen and (min-width: 630px) and (max-width: 730px) {
-    .button-text {
-        font-size: 1.2rem;
-    }
-    .button-style {
-        min-width: 230px;
-    }
 }
 
 /* Kangen water button */
