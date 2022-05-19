@@ -72,6 +72,25 @@ p, li, .btn-lg {
     font-size: 0.98rem;
 }
 
+/* in Recognitions & Awards */
+.long-text-x-margin {
+    margin: 0 6.2rem 0 6rem;
+    line-height: 2rem;
+}
+
+/* in Stay Young For A Long While */
+.antioxidant-text {
+    color: rgb(226, 221, 221);
+    padding-top: 1rem;
+    margin: 0 6.2rem 0 6rem;
+    font-size: 1.2rem;
+}
+
+.antioxidant-text-enlarge {
+    color: white;
+    font-size: 1.48rem;
+}
+
 /******** Font sizes & text margins for tablet screens ********/
 @media screen and (min-width: 991px) {
     .navbar-brand {
@@ -110,6 +129,24 @@ p, li, .btn-lg {
     .button-text {
         font-size: 1.02rem;
     }
+
+    /* in Recognitions & Awards */
+    .long-text-x-margin {
+        margin: 0 6.2rem 0 6rem;
+        line-height: 2rem;
+    }
+
+    /* in Stay Young For A Long While */
+    .antioxidant-text {
+        padding-top: 1rem;
+        margin: 0 6.2rem 0 6rem;
+        font-size: 1.2rem;
+    }
+
+    .antioxidant-text-enlarge {
+        color: white;
+        font-size: 1.48rem;
+    }
 }
 
 /******** Font sizes & text margins for huge desktop screens ********/
@@ -127,39 +164,47 @@ p, li, .btn-lg {
     }
     
     h2 {
-        font-size: 1.95rem;
+        font-size: 1.85rem;
         font-family: 'Noto Sans JP', sans-serif;
         padding-bottom: 1.2rem;
     }
     
     h4 {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 
     h5 {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
     }
     
     h6 {
-        font-size: 1.15rem;
+        font-size: 1.05rem;
     }
     
     p, li, .btn-lg {
-        font-size: 1.15rem;
-    }
-
-    .button-text {
         font-size: 1.05rem;
     }
 
-    .larger-p {
-        font-size: 1.18rem;
+    .button-text {
+        font-size: 0.95rem;
     }
 
+    /* in Recognitions & Awards */
     .long-text-x-margin {
         margin: 0 6.2rem 0 6rem;
         line-height: 2rem;
-        font-size: 1.18rem;
+    }
+
+    /* in Stay Young For A Long While */
+    .antioxidant-text {
+        padding-top: 1rem;
+        margin: 0 6.2rem 0 6rem;
+        font-size: 1.2rem;
+    }
+
+    .antioxidant-text-enlarge {
+        color: white;
+        font-size: 1.48rem;
     }
 }
 
@@ -337,40 +382,6 @@ i.fa-5x {
         min-width: 8rem;
         max-width: 8rem;
     }
-} */
-
-
-/******************* Stay Young For A Long While *******************/
-
-.blueberries-banner {
-    background-image: url(Fresh-Blueberries.PNG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* width: 90%; */
-    /* padding-top: 3rem;
-    padding-bottom: 3rem; */
-}
-
-.antioxidant-text {
-    font-size: 1.38rem;
-    color: rgb(226, 221, 221);
-}
-
-@media screen and (min-width: 1679px) {
-    .antioxidant-text {
-        padding-top: 1rem;
-        margin: 0 6.2rem 0 6rem;
-        font-size: 1.32rem;
-    }
-}
-
-.antioxidant-text-enlarge {
-    color: white;
-    font-size: 1.58rem;
-}
-
-/* .border-yellow-button {
-    border-color: #dba80c !important;
 } */
 
 
@@ -883,17 +894,31 @@ ol.carousel-indicators li.active {
 }
 
 
+/******************* Stay Young For A Long While *******************/
+
+.blueberries-banner {
+    background-image: url(Fresh-Blueberries.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 90%; */
+    /* padding-top: 3rem;
+    padding-bottom: 3rem; */
+}
+
+/* .border-yellow-button {
+    border-color: #dba80c !important;
+} */
+
+
 /*********** Which Kangen Water Ionizer is right for you? ***********/
 .product-column {
     padding-left: 0px;
     padding-right: 0px;
 }
 
-/* When the products are side by side and below 1679px screen width, SD501P and Super 501 are oddly larger than K8 so need to set a max-height */
-@media screen and (max-width: 1678px) {
-    .product-image {
-        max-height: 256px;
-    }    
+/* When the products are side by side, SD501P and Super 501 are oddly larger than K8 so need to set a max-height */
+.product-image {
+    max-height: 260px;
 }
 
 @media screen and (max-width: 991px) {
