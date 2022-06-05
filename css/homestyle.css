@@ -950,15 +950,9 @@ ol.carousel-indicators li.active {
     }
 }
 
-/* Make the text smaller in comparison to the name of the machines */
-.product-text {
-    font-size: 1.1rem;
-}
-
-@media screen and (min-width: 1679px) {
-    .product-text {
-        font-size: 1.2rem;
-    }
+/* Add some space between the machines and their names on smaller devices */
+.product-name {
+    margin-top: 1.5rem;
 }
 
 .border-turquoise-button {
