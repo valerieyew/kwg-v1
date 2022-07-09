@@ -1,7 +1,7 @@
 body {
     text-align: center;
     padding-top: 55px;
-    animation: transitionIn 1.2s;
+    animation: transitionIn 1.6s;
 }
 
 @media screen and (min-width: 992px) {
@@ -37,7 +37,7 @@ body {
 
 .navbar.scrolled {
     background-color: #bcedf0 !important;
-    transition: background-color 200ms linear;
+    transition: background-color 1500ms linear;
 }
 
 /******** Default font sizes & text margins for screens with width <991px ********/
