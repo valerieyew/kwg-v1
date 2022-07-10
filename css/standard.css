@@ -373,6 +373,24 @@ I did it this way so that the col will be nicely arranged while at the same time
     max-height: 300px;
 }
 
+@media screen and (min-width: 520px) and (max-width: 637px) { 
+    .dsa-sg-cert {
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-width: 638px) and (max-width: 767px) { 
+    .dsa-sg-cert {
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 1679px) { 
+    .dsa-sg-cert {
+        max-width: 80%;
+    }
+}
+
 .footer-text {
     text-align: left;
     font-size: 1rem;

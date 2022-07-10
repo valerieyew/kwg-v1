@@ -133,7 +133,7 @@ p, li, .btn-lg {
     }
     
     p, li, .btn-lg {
-        font-size: 1.1rem;
+        font-size: 0.95rem;
     }
 
     .button-text {
@@ -312,6 +312,10 @@ i.fa-5x {
 }
 
 /************************* Head Banner *************************/
+
+.row-of-ionizers {
+    max-width: 80%;
+}
 
 @media screen and (max-width: 514px) {
     .row-of-ionizers {
