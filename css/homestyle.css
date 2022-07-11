@@ -53,7 +53,7 @@ body {
 }
 
 h2, h4, h5, h6, p {
-    margin: 8px;
+    margin: 8px 0px;
 }
 
 h2 {
@@ -170,7 +170,7 @@ p, li, .btn-lg {
     }
 
     h1, h2, h4, h6, p {
-        margin: 15px;
+        margin: 15px 0px;
     }
     
     h2 {
