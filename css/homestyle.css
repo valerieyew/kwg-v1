@@ -314,7 +314,7 @@ i.fa-5x {
 /************************* Head Banner *************************/
 
 .row-of-ionizers {
-    max-width: 80%;
+    max-width: 82%;
 }
 
 @media screen and (max-width: 514px) {
@@ -333,7 +333,14 @@ i.fa-5x {
 
 .paper-certificate {
     overflow: auto;
-    max-height: 300px;
+    max-height: 250px;
+}
+
+/* Make certificates smaller relative to the machines in the previous banner */
+@media screen and (max-width: 1042px) {
+    .paper-certificate {
+        max-height: 180px;
+    }
 }
 
 .ra-certificate {
