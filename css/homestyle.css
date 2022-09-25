@@ -1,7 +1,7 @@
 body {
     text-align: center;
     padding-top: 55px;
-    animation: transitionIn 1.6s;
+    animation: transitionIn 1.4s;
 }
 
 @media screen and (min-width: 992px) {
@@ -36,7 +36,7 @@ body {
 }
 
 .navbar.scrolled {
-    background-color: #bcedf0 !important;
+    background-color: #c8f5f7 !important;
     transition: background-color 1500ms linear;
 }
 
@@ -133,7 +133,7 @@ p, li, .btn-lg {
     }
     
     p, li, .btn-lg {
-        font-size: 0.95rem;
+        font-size: 0.98rem;
     }
 
     .button-text {
@@ -237,13 +237,24 @@ hr {
     }
 }
 
+a:link {
+    color: #1d91a3;
+}
+
+/* visited link */
+a:visited {
+    color: #1d91a3;
+}
+
 /* mouse over link */
 a:hover {
+    color: #035aa6;
     text-decoration: none;
 }
 
 /* selected link */
 a:active {
+    color: #035aa6;
     text-decoration: none;
 }
 

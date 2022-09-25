@@ -90,7 +90,7 @@ p, li, .btn-lg {
     }
     
     p, li, .btn-lg {
-        font-size: 1.1rem;
+        font-size: 0.98rem;
     }
 }
 
@@ -144,12 +144,12 @@ p, li, .btn-lg {
 
 /******* Links on pages other than product page *******/
 a:link {
-    color: #3e64ff;
+    color: #1d91a3;
 }
 
 /* visited link */
 a:visited {
-    color: #3e64ff;
+    color: #1d91a3;
 }
 
 /* mouse over link */
