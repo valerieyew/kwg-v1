@@ -142,6 +142,21 @@ p, li, .btn-lg {
     padding-right: 0px;
 }
 
+/* Center the elements on mobile screens */
+@media screen and (max-width: 767px) {
+    .text-mobile-center {
+        text-align: center;
+    }
+}
+
+/* @media screen and (max-width: 767px) {
+    .img-mobile-center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+} */
+
+
 /******* Links on pages other than product page *******/
 a:link {
     color: #1d91a3;
@@ -473,13 +488,6 @@ I did it this way so that the col will be nicely arranged while at the same time
 
 
 /********************************* CONTACT US & FAQ SPECIFIC *********************************/
-/* Center the headings on mobile screens */
-@media screen and (max-width: 767px) {
-    .contact-us-h4 {
-        text-align: center;
-    }
-}
-
 /* Style for buttons beside the respective contact details */
 .btn-contact-us {
     color: #fff;

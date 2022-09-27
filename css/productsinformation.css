@@ -62,7 +62,7 @@ li {
     margin:auto; 
 }
 
-.specifications-style {
+/* .specifications-style {
     max-width: 970px;
     text-align: center;
 }
@@ -71,7 +71,7 @@ li {
     .specifications-style {
         padding-left: 15rem;
     }
-}
+} */
 
 /* For the product images at the top */
 .imgBox {
@@ -82,10 +82,12 @@ li {
 }
 
 /* For the size/dimensions image at the bottom */
-.sizeImgBox {
-    width: 26.5rem;
-    height: 25rem;
-    margin: 0.2rem;
+@media screen and (min-width: 500px) {
+    .scaleImgBox {
+        max-width: 26.5rem;
+        max-height: 25rem;
+        margin: 0.2rem;
+    }
 }
 
 /* For all the images' sizes/dimensions box to be smaller for smaller screens */
@@ -155,22 +157,9 @@ li {
     }
 }
 
-/* notes is only for SD501 and SD501P at the bottom of the specification image */
-.notes {
-    font-size: 0.95rem;
-    text-align: left;
-}
-
 .end-text {
     text-align: center;
-    font-size: 1.05rem;
 }
-
-@media screen and (min-width: 1679px) {
-    .end-text {
-        font-size: 1.1rem;
-    }
-}    
 
 .footer-text {
     text-align: center;
