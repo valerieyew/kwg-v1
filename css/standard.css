@@ -214,23 +214,23 @@ a:active {
 
 /********************************* PRODUCT SPECIFIC *********************************/
 /* unvisited link */
-.product-page-link:link {
+.products a:link {
     color: black;
 }
 
 /* visited link */
-.product-page-link:visited {
+.products a:visited {
     color: black;
 }
 
 /* mouse over link */
-.product-page-link:hover {
+.products a:hover {
     color: #035aa6;
     text-decoration: none;
 }
 
 /* selected link */
-.product-page-link:active {
+.products a:active {
     color: #035aa6;
     text-decoration: none;
 }
@@ -245,12 +245,16 @@ a:active {
 /* For each column, there is another division within that contains the products and their names
 I did it this way so that the col will be nicely arranged while at the same time, there is spaces between each product */
 .products-wrap {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0rem;
+}
+
+.products p {
+    padding-bottom: 0.8rem;
 }
 
 /* This is the division within each column and its sizing for each screen width */
 .products {
-    padding: 2.5rem;
+    padding: 2rem;
     height: 30rem;
     width: 25rem;
 }
@@ -289,14 +293,6 @@ I did it this way so that the col will be nicely arranged while at the same time
         height: 22rem;
         width: 16rem;
     }
-
-    .products-h4 {
-        font-size: 1.4rem;
-    }
-
-    .products-p {
-        font-size: 1.1rem;
-    }
 } 
 
 @media screen and (max-width: 991px) {
@@ -326,29 +322,13 @@ I did it this way so that the col will be nicely arranged while at the same time
         height: 20rem;
         width: 14.5rem;
     }
-
-    .products-h4 {
-        font-size: 1.3rem;
-    }
-
-    .products-p {
-        font-size: 1rem;
-    }
 } 
 
 @media screen and (max-width: 575px) {
     .products {
-        padding: 2.8rem;
+        padding: 2rem;
         height: 30rem;
         width: 25rem;
-    }
-
-    .products-h4 {
-        font-size: 1.6rem;
-    }
-
-    .products-p {
-        font-size: 1.25rem;
     }
 }
 

@@ -30,11 +30,7 @@ h4 {
     margin-bottom: 1rem;
 }
 
-p {
-    font-size: 1rem;
-}
-
-li {
+p, li {
     font-size: 1rem;
 }
 
@@ -62,43 +58,21 @@ li {
     margin:auto; 
 }
 
-/* .specifications-style {
-    max-width: 970px;
-    text-align: center;
-}
-
-@media screen and (min-width: 1680px) {
-    .specifications-style {
-        padding-left: 15rem;
-    }
-} */
-
 /* For the product images at the top */
 .imgBox {
     width: 25rem;
     height: 25rem;
-    margin: 0.2rem;
-    border: 1px solid rgba(0,0,0,.2);
+    margin: 0.2rem 0rem 1rem 0rem;
 }
 
-/* For the size/dimensions image at the bottom */
-@media screen and (min-width: 500px) {
-    .scaleImgBox {
-        max-width: 26.5rem;
-        max-height: 25rem;
-        margin: 0.2rem;
-    }
+.imgBox img {
+    border-radius: 0.4rem;
 }
 
 /* For all the images' sizes/dimensions box to be smaller for smaller screens */
 @media screen and (max-width: 460px) {
     .imgBox {
         width: 23rem;
-        height: 23rem;
-    }
-
-    .sizeImgBox {
-        width: 24rem;
         height: 23rem;
     }
 }
@@ -108,11 +82,6 @@ li {
         width: 21rem;
         height: 21rem;
     }
-
-    .sizeImgBox {
-        width: 22rem;
-        height: 21rem;
-    }
 }
 
 @media screen and (max-width: 385px) {
@@ -120,31 +89,20 @@ li {
         width: 19rem;
         height: 19rem;
     }
-
-    .sizeImgBox {
-        width: 20rem;
-        height: 18.5rem;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .sizeImgBox {
-        width: 19rem;
-        height: 18rem;
-    }
 }
 
 /* This is targeted at the small images below the imgBox */
 .thumb .thumbnail {
     /* No bullet points or other pointers */
     list-style: none;
-    margin: 0.2rem;
+    margin: 0.2rem; 
     width: 3.8rem;
     height: 3.8rem;
-    border: 1px solid rgba(0,0,0,.2);
     overflow: hidden;
     display: inline-block;
+    border-radius: 0.2rem;
 }
+
 
 /* Centralize the product images for tablet mode and below */
 @media (max-width: 991px) {
@@ -154,6 +112,15 @@ li {
 
     .imgBox {
         margin: 0.2rem auto;
+    }
+}
+
+/* For the size/dimensions image at the bottom */
+@media screen and (min-width: 500px) {
+    .scaleImgBox {
+        max-width: 26.5rem;
+        max-height: 25rem;
+        margin: 0.2rem;
     }
 }
 
