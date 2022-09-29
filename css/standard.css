@@ -213,39 +213,33 @@ a:active {
 
 
 /********************************* PRODUCT SPECIFIC *********************************/
+
+/* For space between each row of products */
+.products-wrap {
+    padding: 0.5rem 0rem;
+}
+
+/* The entire area within the div that has the products-wrap class is an anchor element */
 /* unvisited link */
-.products a:link {
+.products-wrap a:link {
     color: black;
 }
 
 /* visited link */
-.products a:visited {
+.products-wrap a:visited {
     color: black;
 }
 
 /* mouse over link */
-.products a:hover {
+.products-wrap a:hover {
     color: #035aa6;
     text-decoration: none;
 }
 
 /* selected link */
-.products a:active {
+.products-wrap a:active {
     color: #035aa6;
     text-decoration: none;
-}
-
-/* For the 5 headers in products page */
-.product-section-name {
-    color: #2b4e75;
-    text-align:left;
-    margin-top: 2rem;
-}
-
-/* For each column, there is another division within that contains the products and their names
-I did it this way so that the col will be nicely arranged while at the same time, there is spaces between each product */
-.products-wrap {
-    padding: 0.5rem 0rem;
 }
 
 .products p {
@@ -257,6 +251,12 @@ I did it this way so that the col will be nicely arranged while at the same time
     padding: 2rem;
     height: 30rem;
     width: 25rem;
+    border: 1px solid #a2a4a6;
+    border-radius: 0.4rem;
+}
+
+.products:hover {
+    border: 1px solid #035aa6;
 }
 
 @media screen and (max-width: 1679px) {
