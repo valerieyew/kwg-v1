@@ -212,11 +212,24 @@ a:active {
 }
 
 
-/********************************* PRODUCT SPECIFIC *********************************/
+/********************************* PRODUCTS *********************************/
+
+.product-section-name {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 
 /* For space between each row of products */
 .products-wrap {
     padding: 0.5rem 0rem;
+}
+
+@media screen and (max-width: 992px) {
+    .products-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 /* The entire area within the div that has the products-wrap class is an anchor element */
@@ -287,7 +300,6 @@ a:active {
     }
 }
 
-/* I adjusted the font sizes for this width and smaller, before increasing them back to the original for mobile phone screens */
 @media screen and (max-width: 1130px) {
     .products {
         height: 22rem;
@@ -295,14 +307,14 @@ a:active {
     }
 } 
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 991.8px) {
     .products {
         height: 26rem;
-        width: 21rem;
+        width: 20rem;
     }
 } 
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 830px) {
     .products {
         height: 24rem;
         width: 18rem;
@@ -324,7 +336,7 @@ a:active {
     }
 } 
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 575.8px) {
     .products {
         padding: 2rem;
         height: 30rem;
@@ -351,7 +363,14 @@ a:active {
 /* For laptop mode and above, anespa and ukon are side by side so I introduced some spacing to the left of ukon to space them out abit */
 @media screen and (min-width: 992px) { 
     .ukon-spacing {
-        margin-left: 6rem;
+        margin-left: 5rem;
+    }
+}
+
+/* Add more space between anespa and ukon when they are stacked in vertical arrangement */
+@media screen and (max-width: 576px) { 
+    .ukon-spacing {
+        margin-top: 1.4rem;
     }
 }
 
@@ -384,13 +403,6 @@ a:active {
     .dsa-sg-cert {
         max-width: 80%;
     }
-}
-
-.footer-text {
-    text-align: left;
-    font-size: 1rem;
-    margin-top: 4rem;
-    color:black;
 }
 
 /* Modal Background */
@@ -566,4 +578,12 @@ th, td {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+.footer-text {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 4rem;
+    color:black;
 }
