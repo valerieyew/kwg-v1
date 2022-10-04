@@ -530,26 +530,34 @@ a:active {
 }
 
 /* Only the big FontAwesome icons become this color - so far only for the showroom icons */
-i.fa-5x {
+i.fa-3x {
     color:rgb(166, 220, 239, 0.8);
 }
 
-/* Make sure that the showroom icons have space above and below them for tablet size and smaller - icons are stacked vertically for these screens */
-/* I use showroom-icons class because this margin is not for the first icon */
-
-/* All icons except the 1st one have margin-top for phone mode */
-@media screen and (max-width: 767px) {
-    .first-row-showroom-icons {
-        margin-top: 30px;
+/* Make sure that the showroom icons have space above and below them for smaller screens */
+@media screen and (max-width: 576px) {
+    .contact-page-icons .col-sm-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
     }
-    .second-row-showroom-icons {
+}
+
+@media screen and (max-width: 400px) {
+    .contact-page-icons p {
+        font-size: 0.95rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sm-adjustment {
         margin-top: 30px;
     }
 }
 
-/* Only second row of 3 icons have margin-top for tablet mode */
 @media screen and (max-width: 991px) {
-    .second-row-showroom-icons {
+    .md-adjustment {
         margin-top: 30px;
     }
 }
