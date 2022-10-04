@@ -481,24 +481,43 @@ a:active {
 
 /********************************* CONTACT US & FAQ SPECIFIC *********************************/
 /* Style for buttons beside the respective contact details */
-.btn-contact-us {
-    color: #fff;
-    background-color: rgb(79, 182, 219);
-    border-color: rgb(74, 173, 209);
+/* .contact-details .btn {
+  transition: all 0.3s ease;
+}
+
+.contact-details .btn:hover {
+   box-shadow:
+   -7px -7px 10px 0px #fff9,
+   -4px -4px 3px 0px #fff9,
+   7px 7px 10px 0px #b2cadf,
+   4px 4px 3px 0px #b2cadf;
+} */
+
+.contact-details .btn {
+    background-color: white;
+    border-color: rgb(52, 52, 52);
+    color: rgb(37, 37, 37);
+    padding: 0.4rem 1rem;
+}
+
+/* mouse over link */
+.contact-details .btn:hover {
+    color: #035aa6;
+    border-color: #035aa6;
+    text-decoration: none;
+}
+
+/* selected link */
+.contact-details .btn:active {
+    color: #035aa6;
+    border-color: #035aa6;
+    text-decoration: none;
 }
 
 /* Only for the 3 buttons beside the contact number */
 @media screen and (max-width: 592px) {
     .set-of-number-icons {
-        display: block;
         margin-top: 0.5rem;
-        margin-left: 6rem;
-    }
-}
-
-@media screen and (max-width: 439px) {
-    .set-of-number-icons {
-        margin-left: 0rem;
     }
 }
 
@@ -537,7 +556,7 @@ i.fa-5x {
 
 /* All FAQ questions are of blue colour, while the answers are in black */
 .question {
-    color: rgb(26, 137, 149);
+    color: rgb(58, 57, 57);
 }
 
 /* Style for the entire answer to the FIRST faq */
@@ -583,7 +602,8 @@ th, td {
 
 .footer-text {
     text-align: center;
-    font-size: 0.76rem;
+    font-size: 0.76
+    rem;
     margin-top: 4rem;
     margin-bottom: 0.8rem;
     color:black;
