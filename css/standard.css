@@ -18,6 +18,33 @@ body {
     }
 }
 
+/* Fixed WA button  */
+.wa-button a {
+    position: fixed;
+    width: 3.5rem;
+    height: 3.5rem;
+    bottom: 1.6rem;
+    right: 1.6rem;
+    background-color:#25d366;
+    border-radius: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.wa-button a:link {
+    color:#FFF;
+}
+
+.wa-button a:visited {
+    color:#FFF;
+}
+
+.wa-button i {
+	margin-top: 0.75rem;
+}
+
 .navbar {
     background-color: #ddf3f5;
 }
@@ -572,6 +599,7 @@ i.fa-3x {
 /* All FAQ questions are of blue colour, while the answers are in black */
 .question {
     color: rgb(58, 57, 57);
+    font-style: italic;
 }
 
 /* Style for the entire answer to the FIRST faq */
@@ -584,25 +612,28 @@ hr {
     margin-top: 3rem;
     width: 30%;
     border-style: dotted none none;
-    border-color: rgb(192, 187, 187);
+    border-color: rgb(166, 220, 239, 0.8);
     border-width: 0.4rem;
 }
 
 /* Add the table lines */
 table, th, td {
-    border: solid 1px black;
+    border: solid 0.8px black;
+    width: 100%;
 }
 
 /* Widen the space between each point to the first faq */
 table {
     margin-top: 25px;
+    border-collapse: separate !important;
+    border-radius: 0.2rem;
 }
 
 /* Ensure that each column in the table of the first faq is of the same width */
 th, td {
     width: 50%;
     text-align: center;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 
