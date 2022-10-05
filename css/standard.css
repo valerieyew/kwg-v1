@@ -514,6 +514,13 @@ a:active {
     text-decoration: none;
 }
 
+/* For telegram button */
+@media screen and (max-width: 496px) {
+    .mobile-mt {
+        margin-top: 0.3rem;
+    }
+}
+
 /* Only for the 3 buttons beside the contact number */
 @media screen and (max-width: 592px) {
     .set-of-number-icons {
