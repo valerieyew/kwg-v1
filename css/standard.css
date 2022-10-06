@@ -98,7 +98,7 @@ h6 {
 }
 
 p, li, .btn-lg {
-    font-size: 1rem;
+    font-size: 1.05rem;
 }
 
 /******** Font sizes & text margins for tablet screens ********/
@@ -118,10 +118,6 @@ p, li, .btn-lg {
     h6 {
         font-size: 1.15rem;
     }
-    
-    p, li, .btn-lg {
-        font-size: 0.98rem;
-    }
 }
 
 /******** Font sizes & text margins for huge desktop screens ********/
@@ -135,10 +131,6 @@ p, li, .btn-lg {
     }
     
     h6 {
-        font-size: 1.05rem;
-    }
-    
-    p, li, .btn-lg {
         font-size: 1.05rem;
     }
 }

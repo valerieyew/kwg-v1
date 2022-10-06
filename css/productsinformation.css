@@ -26,6 +26,9 @@ body {
 } 
 
 
+.model-name-margin-top {
+    margin-bottom: 1.2rem;
+}
 
 /* On tablet mode and below, space is needed between the img-box and text since they are no longer side by side */
 @media screen and (max-width: 991px) {
