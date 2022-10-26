@@ -28,7 +28,7 @@ body {
     height: 3.5rem;
     bottom: 1.6rem;
     right: 1.6rem;
-    background-color:#25d366;
+    background-color:#C7FAA2;
     border-radius: 3rem;
     text-align: center;
     font-size: 2rem;
@@ -37,20 +37,25 @@ body {
 }
 
 .wa-button a:link {
-    color:#FFF;
+    color:black;
 }
 
 .wa-button a:visited {
-    color:#FFF;
+    color:black;
 }
 
 .wa-button i {
 	margin-top: 0.75rem;
 }
 
-.navbar {
-    background-color: #ddf3f5;
+.colored-banner, .navbar {
+    background-color: #AFE1FA;
 }
+/* 
+.navbar.scrolled {
+    background-color: #AFE1FA !important;
+    transition: background-color 700ms linear;
+} */
 
 .navbar-nav {
     margin-left: auto;
@@ -62,11 +67,6 @@ body {
     }
 }
 
-.navbar.scrolled {
-    background-color: #c8f5f7 !important;
-    transition: background-color 1500ms linear;
-}
-
 .navbar-brand {
     font-size: 1.2rem;
     font-family: 'Noto Sans JP', sans-serif;
@@ -74,9 +74,13 @@ body {
 }
 
 .navbar-brand img {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
 }
+
+/* .navbar-nav {
+    font-color: black;
+} */
 
 /******** Default font sizes & text margins for screens with width <991px ********/
 .nav-link {
@@ -120,18 +124,6 @@ p, li, .btn-lg {
     line-height: 2rem;
 }
 
-/* in Stay Young For A Long While */
-.antioxidant-text {
-    color: rgb(226, 221, 221);
-    padding-top: 1rem;
-    margin: 0 6.2rem 0 6rem;
-    font-size: 1.2rem;
-}
-
-.antioxidant-text-enlarge {
-    color: white;
-    font-size: 1.48rem;
-}
 
 /******** Font sizes & text margins for tablet screens ********/
 @media screen and (min-width: 991px) {
@@ -224,9 +216,9 @@ a:active {
 }
 
 /* Only the big FontAwesome icons become this color */
-i.fa-5x {
+/* i.fa-5x {
     color:#e84a5f;
-}
+} */
 
 
 /******************* Container styles *******************/
@@ -272,10 +264,6 @@ i.fa-5x {
     .container-style {
         padding: 16% 1%;
     }
-}
-
-.colored-banner {
-    background-color: #ddf3f5;
 }
 
 .diluted-banner-text {
@@ -380,6 +368,13 @@ i.fa-5x {
         max-width: 8rem;
     }
 } */
+
+
+/******************* Stay Young For A Long While *******************/
+.col-lg-6 ul {
+    padding-left: 0;
+    list-style-position: inside;
+}
 
 
 /******************* More than Just Drinking *******************/
@@ -891,22 +886,6 @@ ol.carousel-indicators li.active {
 }
 
 
-/******************* Stay Young For A Long While *******************/
-
-.blueberries-banner {
-    background-image: url(Fresh-Blueberries.PNG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* width: 90%; */
-    /* padding-top: 3rem;
-    padding-bottom: 3rem; */
-}
-
-/* .border-yellow-button {
-    border-color: #dba80c !important;
-} */
-
-
 /*********** Which Kangen Water Ionizer is right for you? ***********/
 .product-column {
     padding-left: 0px;
@@ -976,7 +955,7 @@ ol.carousel-indicators li.active {
     background-color: #35b5c8;
 }
 
-.picture-background {
+.home-background {
     background-image: url(Application-Home.PNG);
     background-repeat: no-repeat;
     background-size: cover;
