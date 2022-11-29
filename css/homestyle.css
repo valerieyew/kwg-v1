@@ -1,12 +1,12 @@
 body {
     text-align: center;
-    padding-top: 55px;
+    padding-top: 58px;
     animation: transitionIn 1.4s;
 }
 
 @media screen and (min-width: 992px) {
     body {
-        padding-top: 50px;
+        padding-top: 58.5px;
     }
 }
 
@@ -50,12 +50,14 @@ body {
 
 .colored-banner, .navbar {
     background-color: #AFE1FA;
+    opacity: 0.86;
 }
-/* 
+
 .navbar.scrolled {
-    background-color: #AFE1FA !important;
-    transition: background-color 700ms linear;
-} */
+    /* background-color: #AFE1FA !important; */
+    opacity: 1 !important;
+    transition: opacity 500ms linear;
+}
 
 .navbar-nav {
     margin-left: auto;
