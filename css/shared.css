@@ -1,0 +1,165 @@
+/* Fixed WA button  */
+.wa-button a {
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    bottom: 1rem;
+    right: 1rem;
+    background-color:#C7FAA2;
+    box-shadow: 1px 1px 2px #999;
+    border-radius: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    z-index: 100;
+}
+
+.wa-button a:link {
+    color:rgba(0, 0, 0, 0.655);
+}
+
+.wa-button a:visited {
+    color:rgba(0, 0, 0, 0.655);
+}
+
+.wa-button i {
+	color: rgba(0, 0, 0, 0.655);
+}
+
+.colored-banner, .navbar {
+    background-color: #AFE1FA;
+}
+
+/* .navbar {
+    opacity: 0.86;
+} */
+
+.navbar.scrolled {
+    /* background-color: #AFE1FA !important; */
+    opacity: 1.2 !important;
+    transition: opacity 500ms linear;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+.navbar-brand {
+    font-size: 1.12rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    height: 30px;
+    width: 30px;
+}
+
+/******** Default font sizes & text margins for screens with width <991px ********/
+.nav-link {
+    font-size: 0.95rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h2, h4, h5, h6, p {
+    margin: 8px 0px;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-bottom: 1.2rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.18rem;
+}
+
+h6 {
+    font-size: 1.1rem;
+}
+
+p, li, .btn-lg {
+    font-size: 1rem;
+}
+
+
+/******** Font sizes & text margins for tablet screens ********/
+@media screen and (min-width: 991px) {
+    .nav-link {
+        font-size: 0.9rem;
+    }
+    
+    h2 {
+        font-size: 1.65rem;
+    }
+    
+    h4 {
+        font-size: 1.3rem;
+    }
+
+    h5 {
+        font-size: 1.22rem;
+    }
+    
+    h6 {
+        font-size: 1.15rem;
+    }
+    
+    p, li, .btn-lg {
+        font-size: 0.98rem;
+    }
+}
+
+/******** Font sizes & text margins for huge desktop screens ********/
+@media screen and (min-width: 1679px) {
+    h1, h2, h4, h6, p {
+        margin: 15px 0px;
+    }
+    
+    h2 {
+        font-size: 1.85rem;
+    }
+
+    h5 {
+        font-size: 1.15rem;
+    }
+    
+    h6 {
+        font-size: 1.05rem;
+    }
+    
+    p, li, .btn-lg {
+        font-size: 1.05rem;
+    }
+}
+
+a:link {
+    color: #1d91a3;
+}
+
+/* visited link */
+a:visited {
+    color: #1d91a3;
+}
+
+/* mouse over link */
+a:hover {
+    color: #035aa6;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #035aa6;
+    text-decoration: none;
+}
