@@ -113,3 +113,11 @@ body {
 .end-text {
     text-align: center;
 }
+
+.footer-text {
+    text-align: center;
+    font-size: 0.76rem;
+    margin-top: 4rem;
+    margin-bottom: 0.8rem;
+    color:black;
+}
