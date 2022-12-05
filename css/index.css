@@ -62,27 +62,8 @@ body {
 
 /* in Recognitions & Awards */
 .long-text-x-margin {
-    margin: 0 6.2rem 0 6rem;
-    line-height: 2rem;
-}
-
-@media screen and (max-width: 905px) {
-    .long-text-x-margin {
-        margin: 0 3.2rem 0 3rem;
-    }    
-}
-
-@media screen and (max-width: 757px) {
-    .long-text-x-margin {
-        margin: 0 1.6rem 0 1.5rem;
-    }    
-}
-
-@media screen and (max-width: 587px) {
-    .long-text-x-margin {
-        margin: 0 1rem 0 1rem;
-        line-height: 1.6rem;
-    }    
+    line-height: 1.7rem;
+    text-align: left;
 }
 
 
@@ -99,7 +80,7 @@ body {
 
 /******************* Container styles *******************/
 .container-style {
-    max-width: 1000px;
+    max-width: 900px;
     margin: auto; 
 }
 
@@ -199,13 +180,16 @@ i.fa-5x {
 }
 
 .antioxidant-blueberry-img {
-    margin-top: 0.6rem;
-    margin-bottom: 1.2rem;
-    max-height: 10rem; 
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+    max-height: 9.5rem; 
 }
 
 .antioxidant-img {
-    max-height: 24rem; 
+    /* position: absolute; */
+    max-height: 22rem; 
+    margin: auto 0;
+    /* vertical-align: middle; */
 }
 
 
@@ -507,7 +491,13 @@ the margin between the text and buttons will decrease */
 }
 
 
-/******************* Testimonials *******************/
+/******************* Customers' Testimonials *******************/
+.cust-review {
+    max-height: 10rem;
+}
+
+
+/******************* Experts' Testimonials *******************/
 
 /* Set a max limit to the size of the testimonial books */
 .carousel-item .img-fluid {
