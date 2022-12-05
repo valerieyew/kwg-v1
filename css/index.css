@@ -31,7 +31,7 @@ body {
 
 .navbar.scrolled {
     /* background-color: #AFE1FA !important; */
-    opacity: 1.2 !important;
+    /* opacity: 1.2 !important; */
     transition: opacity 500ms linear;
 }
 
@@ -65,6 +65,26 @@ body {
     margin: 0 6.2rem 0 6rem;
     line-height: 2rem;
 }
+
+@media screen and (max-width: 905px) {
+    .long-text-x-margin {
+        margin: 0 3.2rem 0 3rem;
+    }    
+}
+
+@media screen and (max-width: 757px) {
+    .long-text-x-margin {
+        margin: 0 1.6rem 0 1.5rem;
+    }    
+}
+
+@media screen and (max-width: 587px) {
+    .long-text-x-margin {
+        margin: 0 1rem 0 1rem;
+        line-height: 1.6rem;
+    }    
+}
+
 
 .white-text {
     color: white;
@@ -143,87 +163,49 @@ body {
     }
 }
 
-/******************* Recognitions and Awards *******************/
 
-.paper-certificate {
-    overflow: auto;
-    max-height: 250px;
-}
-
-/* Make certificates smaller relative to the machines in the previous banner */
-@media screen and (max-width: 1042px) {
-    .paper-certificate {
-        max-height: 180px;
+/******************* Why are we aging so fast? *******************/
+@media screen and (min-width: 992px) {
+    .on-non-mobile {
+        padding-top: 0rem;
     }
 }
 
-.ra-certificate {
-    display: inline-block;
-}
+@media screen and (min-width: 456px) {
+    .on-mobile {
+        display: none;
+    }
 
-/* Remove 8-point patent on smaller screens so there are only 2 certs, basically just to make sure that the certs always only take up one line */
-@media screen and (max-width: 1042px) {
-    .patent-disappear {
-        display:none;
-    }
-}
-
-/* Remove moh below desktop size and when there are only 3 certs, space them out a little and the wqa cert can have a taller width/height */
-@media screen and (max-width: 1678px) {
-    .moh-disappear {
-        display:none;
-    }
-    .ra-certificate {
-        margin: 0 1.6rem;
-    }
-    #wqa {
-        max-width:300px;
-    }
-}
-
-/* Reduce the width of the wqa cert when there are 4 certs */
-@media screen and (min-width: 1679px) {
-    #wqa {
-        max-width:250px;
-    }
-}
-
-/* For even smaller sizes, further reduce size of remaining 2 certs - have to put this below so can overwrite the above */
-@media screen and (max-width: 698px) {
-    #wqa, #iso13485 {
-        max-width: 180px;
-    }
-    .ra-certificate {
-        margin: 0;
-    }
-}
-
-/* Space out vertically when the remaining 2 certs are arranged up and down on phone screens */
-@media screen and (max-width: 462px) {
-    #wqa {
-        margin-top: 0.5rem;
-    }
-}
-
-/* @media screen and (max-width: 991px) {
-    #iso13485 {
-        min-width: 10rem;
-        max-width: 10rem;
+    .on-non-mobile {
+        padding-top: 1rem;
     }
 }
 
 @media screen and (max-width: 455px) {
-    #iso13485 {
-        min-width: 8rem;
-        max-width: 8rem;
+    .on-non-mobile {
+        display: none;
     }
-} */
+}
+
+i.fa-5x {
+    color:#e84a5f;
+}
 
 
-/******************* Stay Young For A Long While *******************/
+/******************* Age slower with Kangen Water *******************/
 .col-lg-6 ul {
     padding-left: 0;
     list-style-position: inside;
+}
+
+.antioxidant-blueberry-img {
+    margin-top: 0.6rem;
+    margin-bottom: 1.2rem;
+    max-height: 10rem; 
+}
+
+.antioxidant-img {
+    max-height: 24rem; 
 }
 
 
@@ -736,6 +718,83 @@ ol.carousel-indicators li.active {
 }
 
 
+/******************* Recognitions and Awards *******************/
+
+.paper-certificate {
+    overflow: auto;
+    max-height: 250px;
+}
+
+/* Make certificates smaller relative to the machines in the previous banner */
+@media screen and (max-width: 1042px) {
+    .paper-certificate {
+        max-height: 180px;
+    }
+}
+
+.ra-certificate {
+    display: inline-block;
+}
+
+/* Remove 8-point patent on smaller screens so there are only 2 certs, basically just to make sure that the certs always only take up one line */
+@media screen and (max-width: 1042px) {
+    .patent-disappear {
+        display:none;
+    }
+}
+
+/* Remove moh below desktop size and when there are only 3 certs, space them out a little and the wqa cert can have a taller width/height */
+@media screen and (max-width: 1678px) {
+    .moh-disappear {
+        display:none;
+    }
+    .ra-certificate {
+        margin: 0 1.6rem;
+    }
+    #wqa {
+        max-width:300px;
+    }
+}
+
+/* Reduce the width of the wqa cert when there are 4 certs */
+@media screen and (min-width: 1679px) {
+    #wqa {
+        max-width:250px;
+    }
+}
+
+/* For even smaller sizes, further reduce size of remaining 2 certs - have to put this below so can overwrite the above */
+@media screen and (max-width: 698px) {
+    #wqa, #iso13485 {
+        max-width: 180px;
+    }
+    .ra-certificate {
+        margin: 0;
+    }
+}
+
+/* Space out vertically when the remaining 2 certs are arranged up and down on phone screens */
+@media screen and (max-width: 462px) {
+    #wqa {
+        margin-top: 0.5rem;
+    }
+}
+
+/* @media screen and (max-width: 991px) {
+    #iso13485 {
+        min-width: 10rem;
+        max-width: 10rem;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    #iso13485 {
+        min-width: 8rem;
+        max-width: 8rem;
+    }
+} */
+
+
 /*********** Which Kangen Water Ionizer is right for you? ***********/
 .product-column {
     padding-left: 0px;
@@ -766,13 +825,13 @@ ol.carousel-indicators li.active {
 }
 
 /* Any size below laptop mode - the products are arranged in a single column so I need to add margin-top to differentiate them */
+.product-column {
+    margin-top: 1rem;
+}
+
 @media screen and (max-width: 991px) {
     .product-column {
         margin-top: 2rem;
-    }
-
-    .k8-product-column {
-        margin-top: 0.95rem;
     }
 }
 
