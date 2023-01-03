@@ -1,13 +1,7 @@
 body {
     text-align: center;
-    padding-top: 58px;
+    padding-top: 56px;
     animation: transitionIn 1.4s;
-}
-
-@media screen and (min-width: 992px) {
-    body {
-        padding-top: 58.5px;
-    }
 }
 
 @keyframes transitionIn {
@@ -56,16 +50,10 @@ body {
     width: 30px;
 }
 
-/* .navbar-nav {
-    font-color: black;
-} */
-
-/* in Recognitions & Awards */
 .long-text-x-margin {
     line-height: 1.7rem;
     text-align: left;
 }
-
 
 .white-text {
     color: white;
@@ -106,19 +94,19 @@ body {
 
 @media screen and (max-width: 991px) {
     .container-style { 
-        padding: 7.6% 0%;
+        padding: 7.6% 3%;
     }
 }
 
 @media screen and (max-width: 853px) {
     .container-style {
-        padding: 10% 0%;
+        padding: 10% 3%;
     }
 }
 
 @media screen and (max-width: 610px) {
     .container-style {
-        padding: 16% 1%;
+        padding: 16% 2%;
     }
 }
 
@@ -181,15 +169,21 @@ i.fa-5x {
 
 .antioxidant-blueberry-img {
     margin-top: 0.4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.4rem;
     max-height: 9.5rem; 
 }
 
-.antioxidant-img {
-    /* position: absolute; */
-    max-height: 22rem; 
-    margin: auto 0;
-    /* vertical-align: middle; */
+
+/******************* Age slower with Kangen Water, Alkalinity and Micro-Clustering *******************/
+.property-img {
+    max-height: 16rem;
+    margin: auto;
+}
+
+@media screen and (min-width: 992px) {
+    .property-img {
+        max-height: 24rem;
+    }
 }
 
 
@@ -696,15 +690,15 @@ ol.carousel-indicators li.active {
 {
   content: '>';
   font-size: 55px;
-  color: rgb(166, 220, 239, 0.9);
-  text-shadow: 2px 2px 5px rgb(166, 220, 239, 0.9);
+  color: #2C3B94;
+  text-shadow: 2px 2px 5px #2C3B94;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 55px;
-  color: rgb(166, 220, 239, 0.9);
-  text-shadow: 2px 2px 5px rgb(166, 220, 239, 0.9);
+  color: #2C3B94;
+  text-shadow: 2px 2px 5px #2C3B94;
 }
 
 
@@ -724,6 +718,7 @@ ol.carousel-indicators li.active {
 
 .ra-certificate {
     display: inline-block;
+    margin: 0 
 }
 
 /* Remove 8-point patent on smaller screens so there are only 2 certs, basically just to make sure that the certs always only take up one line */
@@ -770,21 +765,6 @@ ol.carousel-indicators li.active {
     }
 }
 
-/* @media screen and (max-width: 991px) {
-    #iso13485 {
-        min-width: 10rem;
-        max-width: 10rem;
-    }
-}
-
-@media screen and (max-width: 455px) {
-    #iso13485 {
-        min-width: 8rem;
-        max-width: 8rem;
-    }
-} */
-
-
 /*********** Which Kangen Water Ionizer is right for you? ***********/
 .product-column {
     padding-left: 0px;
@@ -830,23 +810,25 @@ ol.carousel-indicators li.active {
     margin-top: 1.5rem;
 }
 
-.border-turquoise-button {
-    background-color: #35b5c8;
+.highlight-button {
+    background-color: #4c5bad;
+    border-color: #4c5bad !important;
     color: rgb(255, 255, 255);
-    border-color: #35b5c8 !important;
+    padding: 0.54rem 1.4rem;
 }
 
-.border-turquoise-button:hover {
-    background-color: #35b5c8;
+.highlight-button:hover {
+    background-color: #7783C7;
+    border-color: #7783C7 !important;
     color: black;
 }
 
 .btn-outline-turquoise {
     /* color: #bcedf0 !important; */
     background-color: transparent;
-    color: rgb(48, 48, 48);
+    color: #2C3B94;
     background-image: none;
-    border-color: #35b5c8 !important;
+    border-color: #2C3B94 !important;
 }
 
 .btn-outline-turquoise:hover {

@@ -463,7 +463,7 @@ table, th, td {
 /* Widen the space between each point to the first faq */
 table {
     margin-top: 25px;
-    border-collapse: separate !important;
+    border-collapse: collapse;
     border-radius: 0.2rem;
 }
 
