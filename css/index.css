@@ -638,8 +638,8 @@ the margin between the text and buttons will decrease */
 /* Thin phone */
 @media screen and (max-width: 367px) {
     .testimonial-text {
-        padding-left: 3.2rem;
-        padding-right: 3.2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
         /* I used height of first testimonial when width = 340px */
         min-height: 34rem;
     }
@@ -655,19 +655,19 @@ the margin between the text and buttons will decrease */
 
 /* Set the max width of the space for just the books and text */
 .carousel-item {
-    max-width: 48rem;
+    max-width: 42rem;
     margin: auto;
 }
 
 @media screen and (min-width: 920px) and (max-width: 991px) {
     .carousel-item {
-        max-width: 55rem;
+        max-width: 50rem;
     }
 }
 
 @media screen and (min-width: 1679px) {
     .carousel-item {
-        max-width: 60rem;
+        max-width: 54rem;
     }
 }
 
@@ -729,7 +729,7 @@ ol.carousel-indicators li.active {
 
 .ra-certificate {
     display: inline-block;
-    margin: 0 
+    margin: 0rem 0.5rem;
 }
 
 /* Remove 8-point patent on smaller screens so there are only 2 certs, basically just to make sure that the certs always only take up one line */
@@ -853,6 +853,10 @@ ol.carousel-indicators li.active {
     background-image: url(Application-Home.PNG);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.home-background .highlight-button {
+    margin-top: 1.5rem;
 }
 
 
