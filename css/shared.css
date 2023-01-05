@@ -144,22 +144,22 @@ p, li, .btn-lg {
 }
 
 a:link {
-    color: #1d91a3;
+    color: #6672b8;
 }
 
 /* visited link */
 a:visited {
-    color: #1d91a3;
+    color: #6672b8;
 }
 
 /* mouse over link */
 a:hover {
-    color: #035aa6;
+    color: #2C3B94;
     text-decoration: none;
 }
 
 /* selected link */
 a:active {
-    color: #035aa6;
+    color: #2C3B94;
     text-decoration: none;
 }

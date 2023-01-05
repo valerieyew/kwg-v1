@@ -487,8 +487,19 @@ the margin between the text and buttons will decrease */
 
 /******************* Customers' Testimonials *******************/
 .cust-review {
+    display: inline-block;
+}
+
+@media screen and (min-width: 480.01px) {
+    .cust-review {
+        margin: 0 1rem;
+    }
+}
+
+.cust-review-pic {
     max-height: 10rem;
 }
+
 
 
 /******************* Experts' Testimonials *******************/
@@ -820,7 +831,7 @@ ol.carousel-indicators li.active {
 .highlight-button:hover {
     background-color: #7783C7;
     border-color: #7783C7 !important;
-    color: black;
+    /* color: black; */
 }
 
 .btn-outline-turquoise {
@@ -829,11 +840,13 @@ ol.carousel-indicators li.active {
     color: #2C3B94;
     background-image: none;
     border-color: #2C3B94 !important;
+    padding: 0.54rem 1.4rem;
 }
 
 .btn-outline-turquoise:hover {
-    /* color: #bcedf0 !important; */
-    background-color: #35b5c8;
+    background-color: #7783C7;
+    border-color: #7783C7 !important;
+    color: white;
 }
 
 .home-background {

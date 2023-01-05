@@ -127,7 +127,7 @@ body {
 /* This is the division within each column and its sizing for each screen width */
 .products {
     padding: 2rem;
-    height: 30rem;
+    height: 33.5rem;
     width: 25rem;
     border: 1px solid #a2a4a6;
     border-radius: 0.4rem;
