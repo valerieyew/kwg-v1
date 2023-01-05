@@ -862,10 +862,16 @@ ol.carousel-indicators li.active {
 
 /******************* Book an appointment with us *******************/
 
-/* The email button will move down for when width is below 484px so need to set margin-top */
-@media screen and (max-width: 483px) {
+/* The wa and email buttons will move down for when width is below as indicated so need to set margin-top */
+@media screen and (max-width: 470px) {
+    .wa-mobile-mt {
+        margin-top: 0.2rem;
+    }
+}
+
+@media screen and (max-width: 622px) {
     .mobile-mt {
-        margin-top: 0.35rem;
+        margin-top: 0.2rem;
     }
 }
 

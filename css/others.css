@@ -379,10 +379,16 @@ body {
     text-decoration: none;
 }
 
-/* For telegram button */
-@media screen and (max-width: 496px) {
+/* For wa and telegram buttons */
+@media screen and (max-width: 363px) {
+    .wa-mobile-mt {
+        margin-top: 0.2rem;
+    }
+}
+
+@media screen and (max-width: 483px) {
     .mobile-mt {
-        margin-top: 0.3rem;
+        margin-top: 0.2rem;
     }
 }
 
