@@ -18,6 +18,59 @@ body {
     }
 }
 
+/******** Default font sizes & text margins for screens with width <991px ********/
+h1, h2, p {
+    margin: 8px 0px;
+}
+
+h1 {
+    font-size: 1.25rem;
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+
+p, li, .btn-lg {
+    font-size: 1rem;
+}
+
+
+/******** Font sizes & text margins for tablet screens ********/
+@media screen and (min-width: 991px) {
+    h1 {
+        font-size: 1.3rem;
+    }
+    
+    h2 {
+        font-size: 1.15rem;
+    }
+    
+    p, li, .btn-lg {
+        font-size: 0.98rem;
+    }
+}
+
+/******** Font sizes & text margins for huge desktop screens ********/
+@media screen and (min-width: 1679px) {
+    h1, h2, p {
+        margin: 15px 0px;
+    }
+    
+    h1 {
+        font-size: 1.35rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+    
+    p, li, .btn-lg {
+        font-size: 1.05rem;
+    }
+}
+
+
 .blue-text {
     color: #2C3B94;
 }

@@ -66,83 +66,15 @@
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-h2, h4, h5, h6, p {
-    margin: 8px 0px;
-}
-
-h2 {
-    font-size: 1.6rem;
-    font-family: 'Noto Sans JP', sans-serif;
-    padding-bottom: 1.2rem;
-}
-
-h4 {
-    font-size: 1.25rem;
-}
-
-h5 {
-    font-size: 1.18rem;
-}
-
-h6 {
-    font-size: 1.1rem;
-}
-
-p, li, .btn-lg {
-    font-size: 1rem;
-}
-
-
 /******** Font sizes & text margins for tablet screens ********/
 @media screen and (min-width: 991px) {
     .nav-link {
         font-size: 0.9rem;
     }
-    
-    h2 {
-        font-size: 1.65rem;
-    }
-    
-    h4 {
-        font-size: 1.3rem;
-    }
-
-    h5 {
-        font-size: 1.22rem;
-    }
-    
-    h6 {
-        font-size: 1.15rem;
-    }
-    
-    p, li, .btn-lg {
-        font-size: 0.98rem;
-    }
 }
 
-/******** Font sizes & text margins for huge desktop screens ********/
-@media screen and (min-width: 1679px) {
-    h1, h2, h4, h6, p {
-        margin: 15px 0px;
-    }
-    
-    h2 {
-        font-size: 1.85rem;
-    }
 
-    h5 {
-        font-size: 1.15rem;
-    }
-    
-    h6 {
-        font-size: 1.05rem;
-    }
-    
-    p, li, .btn-lg {
-        font-size: 1.05rem;
-    }
-}
-
+/********************** Anchor Tags ***********************/
 a:link {
     color: #6672b8;
 }

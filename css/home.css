@@ -15,6 +15,79 @@ body {
     }
 }
 
+/******** Default font sizes & text margins for screens with width <991px ********/
+.nav-link {
+    font-size: 0.95rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1, h2, h3, p {
+    margin: 8px 0px;
+}
+
+h1 {
+    font-size: 1.6rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-size: 1.18rem;
+}
+
+p, li, .btn-lg {
+    font-size: 1rem;
+}
+
+
+/******** Font sizes & text margins for tablet screens ********/
+@media screen and (min-width: 991px) {
+    .nav-link {
+        font-size: 0.9rem;
+    }
+    
+    h1 {
+        font-size: 1.65rem;
+    }
+    
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.22rem;
+    }
+    
+    p, li, .btn-lg {
+        font-size: 0.98rem;
+    }
+}
+
+/******** Font sizes & text margins for huge desktop screens ********/
+@media screen and (min-width: 1679px) {
+    h1, h2, p {
+        margin: 15px 0px;
+    }
+    
+    h1 {
+        font-size: 1.85rem;
+    }
+
+    h3 {
+        font-size: 1.15rem;
+    }
+    
+    p, li, .btn-lg {
+        font-size: 1.05rem;
+    }
+}
+
+
+/******************* Navbar and banner styles *******************/
+
 .colored-banner, .navbar {
     background-color: #AFE1FA;
 }
