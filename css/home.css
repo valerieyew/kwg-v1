@@ -183,6 +183,11 @@ p, li, .btn-lg {
     }
 }
 
+/* For the row of certificates below only */
+.certificates-container-style {
+    max-width: 1000px;
+}
+
 .diluted-banner-text {
     color: #888888;
 }
